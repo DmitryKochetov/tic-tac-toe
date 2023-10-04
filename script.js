@@ -48,7 +48,8 @@ for (let index = 0; index < 9; index++) {
     if (winnerFound() == 2) {
       winnerBanner.innerText = "Победили 0";
     }
-  });
+    
+  }, {once: true});
 }
 
 function winnerFound() {
