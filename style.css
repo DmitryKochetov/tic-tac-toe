@@ -26,4 +26,10 @@
   justify-content: center;
   text-align: center;
   font-size: 500%;
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+  .container {
+    width: 95vw;
+  }
 }/*# sourceMappingURL=style.css.map */
